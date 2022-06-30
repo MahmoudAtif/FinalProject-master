@@ -96,7 +96,7 @@ class NavBar extends StatelessWidget {
             ),
             title: const Text('Language'),
             onTap: () {
-
+              Navigator.of(context).pushNamed("profile");
             },
           ),
           ListTile(

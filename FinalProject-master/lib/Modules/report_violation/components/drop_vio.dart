@@ -16,7 +16,7 @@ class DropDownViolation extends StatelessWidget {
             hint: Text(
               '  Select Violation',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 18,
                 color: Theme
                     .of(context)
                     .hintColor,

@@ -76,6 +76,8 @@ class MainCubit extends Cubit<MainState> {
     ConstantManger.Torok,
     ConstantManger.Enara,
     ConstantManger.HalatNesa2ya,
+    ConstantManger.Qemama,
+    ConstantManger.Bena2,
     ConstantManger.Amtar,
   ];
 
