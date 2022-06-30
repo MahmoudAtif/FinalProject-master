@@ -42,7 +42,9 @@ class Profile extends StatelessWidget {
               centerTitle: true,
               leading: BackButton(),
               title: Text(
-                  '${AppLocalization.of(context)!.translate('MyAccount')}'),
+                  '${AppLocalization.of(context)!.translate('MyAccount')}',style: TextStyle(
+                fontSize: 18
+              ),),
               actions: [
                 Padding(
                   padding: EdgeInsets.all(10.0),

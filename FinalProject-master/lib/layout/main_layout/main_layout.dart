@@ -22,13 +22,13 @@ class MainLayout extends StatelessWidget {
                   onPressed: () => Scaffold.of(context).openDrawer(),
                   icon: const Icon(Icons.format_list_bulleted_outlined),
                   iconSize: 30,
-                  color: Colors.black,
+                  color: Colors.white,
                 );
               }),
               centerTitle: true,
               title: Text(
                 '${cubit.title[cubit.currentIndex]}',
-                style: TextStyle(color: Colors.black, letterSpacing: 1.5),
+                style: TextStyle(color: Colors.white, letterSpacing: 1.5,fontSize: 18),
               ),
             ),
             body: cubit.screensList[cubit.currentIndex],

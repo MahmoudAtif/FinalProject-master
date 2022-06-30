@@ -41,7 +41,7 @@ class Register extends StatelessWidget {
             ));
           }else if(state is RegisterErrorSSN){
             Navigator.pop(context);
-            Toast.show('SSN Already Used', context,duration: 3);
+            Toast.show('NID Already Used', context,duration: 3);
           }
         },
         builder: (context, state) {

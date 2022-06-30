@@ -13,6 +13,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'Modules/emergency_screen/emergency_numbers.dart';
 import 'Modules/forget_password/forget_password.dart';
+import 'Modules/help.dart';
+import 'Modules/lang.dart';
 import 'Modules/profile_screen/profile.dart';
 import 'Modules/report_violation/report_violation.dart';
 import 'Modules/resetpassword.dart';
@@ -95,6 +97,9 @@ class _MyAppState extends State<MyApp> {
         "chat": (context) => ChatBot(),
         "map":(context) =>   MapScreen(),
         "emergency":(context) =>  Emergency_Numbers(),
+        "lang":(context) =>  language(),
+        "help":(context) =>  help(),
+
       },
       localizationsDelegates: const [
         AppLocalization.delegate,

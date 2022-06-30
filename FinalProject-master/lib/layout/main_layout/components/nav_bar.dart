@@ -96,7 +96,7 @@ class NavBar extends StatelessWidget {
             ),
             title: const Text('Language'),
             onTap: () {
-              Navigator.of(context).pushNamed("profile");
+              Navigator.of(context).pushNamed("lang");
             },
           ),
           ListTile(
@@ -105,7 +105,9 @@ class NavBar extends StatelessWidget {
               color: Color(0xff0D47A1),
             ),
             title: Text('help'),
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context).pushNamed("help");
+            },
           ),
           const Divider(),
           ListTile(

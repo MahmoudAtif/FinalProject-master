@@ -28,7 +28,9 @@ class _ChatBotState extends State<ChatBot> {
         leading: IconButton(onPressed: (){
           Navigator.of(context).pushReplacementNamed("home");
         }, icon: Icon(Icons.arrow_back)),
-        title: Text('Chatbot'),
+        title: Text('Chatbot',style: TextStyle(
+          fontSize: 18
+        ),),
       ),
       body: Container(
         child: Column(
