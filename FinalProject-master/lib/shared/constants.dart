@@ -16,10 +16,10 @@ class ConstantManger {
   static const String Torok = "مخالفات الطرق (الحفر – العوائق)";
   static const String Bena2 = "مخالفات البناء";
   static const String Qemama = "القمامة";
-  static const String Enara = "اعمدة االناره";
+  static const String Enara = "اعمدة الاناره";
   static const String HalatNesa2ya =
-      "الحالات االإنسانيه(اطفال الشوارع – الضالين)";
-  static const String Amtar = "مياة االمطار";
+      "الحالات الإنسانيه(اطفال الشوارع – الضالين)";
+  static const String Amtar = "مياة الامطار";
 
   static const int level1 = 1;
   static const int level2 = 2;

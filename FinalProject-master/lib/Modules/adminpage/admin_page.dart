@@ -22,7 +22,7 @@ class AdminPageScreen extends StatelessWidget {
               appBar: AppBar(
                 title: const Text(
                   'Admin Panal',
-                  style: TextStyle(color: Colors.black, letterSpacing: 1.5),
+                  style: TextStyle(color: Colors.white, letterSpacing: 1.5,fontSize: 18),
                 ),
                 centerTitle: true,
               ),
